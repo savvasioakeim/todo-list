@@ -6,8 +6,9 @@ import "./app.css";
 
 export default function TodoList() {
     const [tasks, setTasks] = useState([
-        { text: "walk the dog", completed: false },
-        { text: "walk the cat", completed: false },
+        { text: "na vrw douleia epitelous", completed: false },
+        { text: "na vgalw lefta", completed: false },
+        { text: "o krik einai gay", completed: true }
     ]);
     const [newTasks, setNewTasks] = useState("");
 
